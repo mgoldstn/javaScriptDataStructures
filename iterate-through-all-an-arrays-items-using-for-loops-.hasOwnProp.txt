@@ -1,0 +1,19 @@
+function filteredArray(arr, elem) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+      if (arr[i].indexOf(elem) == -1) {
+        newArr.push(arr[i]);
+      }
+  }
+  return newArr;
+}
+
+console.log(filteredArray([["amy", "beth", "sam"], ["dave", "sean", "peter"]], "peter"));
+
+// output is [['amy', 'beth', 'sam']]
+
+// you must access <arr>; check each sub-array for the value of the <elem> parameter; then return all sub-arrays that don't have the <elem> value to a new array (newArr).
+
+// you're only returning one-level of sub-arrays; I don't need to create two index variables for access?
+
+// output the sub-arrays from <arr> to a new array which do NOT include any sub-arrays containing <elem>; use a for loop.

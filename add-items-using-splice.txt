@@ -1,0 +1,9 @@
+function htmlColorNames(arr) {
+  const spliceArr = arr.splice(0,2,'DarkSalmon','BlanchedAlmond');
+  return arr;
+}
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+
+// .splice(startIndex, amountToDelete, valuesToAdd)
+// replace the first two elements of the array with 'DarkSalmon' and 'BlanchedAlmond' using .splice.
+// output is [ 'DarkSalmon','BlanchedAlmond','LavenderBlush','PaleTurquoise','FireBrick' ]

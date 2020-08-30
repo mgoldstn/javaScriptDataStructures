@@ -1,0 +1,17 @@
+function countOnline(usersObj) {
+  let names = 0;
+  for (let person in usersObj) {
+    if (usersObj[person].online === true) {
+      names++;
+    }
+  }
+  return names;
+}
+console.log(countOnline({ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }))
+
+//output is <1>;
+
+// return the number of users who are online within the users object using a <for...in> statement;
+
+// <for> (<var> varName <in> functParameter) { console.log(varName); }
+// Key: 'value' => object { key:value } pair 

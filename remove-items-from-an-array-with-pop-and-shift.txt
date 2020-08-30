@@ -1,0 +1,9 @@
+function popShift(arr) {
+  let popped = arr.pop();
+  let shifted = arr.shift();
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+//pop(); remove element from end of array.
+//shift(); remove element from beg. of array.

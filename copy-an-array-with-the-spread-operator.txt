@@ -1,0 +1,13 @@
+function copyMachine(arr,num) {
+  let newArr = [];
+  while (num >= 1) {
+    newArr.push([...arr]);
+    num--;
+  }
+  return newArr;
+}
+console.log(copyMachine([true, false, true], 3));
+//output is [ [ true, false, true ],[ true, false, true ],[ true, false, true ] ]
+
+// spread; var newArr = [...oldArr];
+// copy the (<array>, <thisManyTimes>) and output the (<array>, <thisManyTimes>) to a new array.

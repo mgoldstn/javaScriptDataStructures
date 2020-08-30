@@ -1,0 +1,9 @@
+function mixedNumbers(arr) {
+  arr.push(7,'VIII',9);
+  arr.unshift('I',2,'three');
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
+//array.push(); add element at the end of array.
+//array.unshift(); add element at the beg. of array.

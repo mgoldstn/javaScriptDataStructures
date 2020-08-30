@@ -1,0 +1,6 @@
+const arr = [2,4,5,1,7,5,2,1];
+const removeArr = arr.splice(1,4);
+console.log(arr);
+
+// remove any elements from the array that sum to 10 using .splice().
+// .splice(<indexToStartRemoval>, <removeTheseManyElem>)

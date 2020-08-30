@@ -1,0 +1,11 @@
+function quickCheck(arr,elem) {
+  if (arr.indexOf(elem) >= 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+// nameOfVar.indexOf(<nameOfElem>); returns <-1> if the element doesn't exist; returns <indexNo.> if the element exists.
